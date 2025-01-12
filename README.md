@@ -59,6 +59,9 @@
 
 ## Example
 
+![Example](https://i.imgur.com/Vc0EVug.gif)
+
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
