@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmailProvider Demo</title>
+    <script src="path/to/EmailProvider.js"></script>
+</head>
+
+<body>
+    <div>
+        <input type="email" class="email-provider" placeholder="Enter your email">
+    </div>
+
+    <script>
+        new EmailProvider({
+            inputClass: 'email-provider',
+            emailProviders: ["example.com", "test.com"]
+        });
+    </script>
+</body>
+
+</html>

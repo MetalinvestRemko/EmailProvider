@@ -1,0 +1,31 @@
+{
+    "name": "email-provider",
+    "version": "1.0.0",
+    "description": "A lightweight JavaScript library for email autocomplete suggestions.",
+    "main": "dist/email-provider.min.js",
+    "keywords": [
+        "email",
+        "autocomplete",
+        "javascript",
+        "library",
+        "email input"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MetalinvestRemko/email-providers.git"
+    },
+    "author": "Metalinvest Remko <i.kostov@metalinvest-remko.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest",
+        "build": "rollup -c",
+        "start": "node examples/index.js",
+        "lint": "eslint src/**/*.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jest": "^29.0.0",
+        "rollup": "^3.0.0",
+        "eslint": "^8.0.0"
+    }
+}
